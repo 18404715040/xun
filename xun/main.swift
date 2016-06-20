@@ -7,6 +7,10 @@
 //
 
 import Foundation
-
-print("Hello, World!")
-
+var sum:Int=0
+var i:Int=1
+for i in 1...100
+{
+    sum=sum+i
+}
+print(sum)
